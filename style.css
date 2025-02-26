@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mode {
+    width: 100px;
+    height: 3.3rem;
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    margin: 3rem auto;
+    position: relative;
+    cursor: pointer;
+}
+
+i {
+    color: rgb(255, 255, 0);
+    font-size: 1.5rem;
+}
+
+
+#cover {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    left: 3px;
+}
+
+.move-right {
+    transform: translateX(52px); 
+    background-color: rgb(37, 34, 34);
+}
+
+.move-left {
+    transform: translateX(2px); 
+}
+
+
+.dark-mode {
+    background-color: #212121;
+    color: white;
+}
+
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    padding-top:  2rem ;
+    font-weight: bold;
+}
